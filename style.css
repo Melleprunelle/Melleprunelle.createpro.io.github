@@ -1,0 +1,109 @@
+/*_______me permet d'utiliser la police joselin____*/
+
+@font-face {
+	font-family:Josefin;
+	src: url(JosefinSans-Regular.ttf);
+}
+
+
+
+/*_______Style qui gère le fond en image et la continuité du fond blanc____*/
+
+html {
+background:url(bg.jpg) no-repeat center top; 
+background-size: cover;
+height:100%;
+}
+
+/*______________Style qui gère mon bodye, le container________________*/
+
+#container {
+	background:white;
+	margin-right:auto;
+	margin-left:auto;
+	width:1020px;
+	height:100%;
+}
+
+/*______________Style qui gère ma DIV noire__________________________________*/
+
+#div_black {
+	height:380px;
+	background:black;
+	margin-bottom:0px;
+}
+
+/*______________Styles qui gère mes liens de menu_________________________*/
+
+a:hover {
+	color:#cfa205;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+/*______________Style qui gère mon menu fait en tableau__________________*/
+
+table {
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	background:black;
+	padding-top:21px;
+	padding-bottom:21px;
+	border-collapse: separate;
+        border-spacing: 0px 15px;
+	border-collapse: separate;
+        border-spacing: 20px 0px;
+	font-family:"Josefin";
+	font-size:18px;
+}
+
+/*______________Style qui gère mes marges de cellules______________________*/
+
+th {
+	margin-right:15px;
+	margin-left:15px;
+}
+
+/*______________Styles qui gère mes titres__________________________________*/
+
+h1 {
+	font-family:"Josefin";
+	font-size:133px;
+	color:#cfa205;
+	text-align:center;
+	margin-top:55px;
+}
+
+h2 {
+	font-family:"Josefin";
+	font-size:18px;
+	color:#cfa205;
+	text-align:center;
+	margin-top:-50px;
+}
+
+/*______________Style qui gère le fond de ma barre d'icônes__________*/
+
+#fond_icônes {
+	background:#e8e8e8;
+	width:1020px;
+	height:60px;
+	margin-top:-16px;
+}
+
+/*______________Styles qui gère mes divs d'icônes__________________*/
+
+#icônes {
+	width:35px;
+	height:35px;
+	/*margin-top:auto;
+	/*margin-bottom:auto;
+	/*text-align:center;*/
+	padding-top:12.5px;
+}
+
+/*J'espère que c'est assez clair pour toi =) */
