@@ -12,17 +12,15 @@
 html {
 background:url(bg.jpg) no-repeat center top; 
 background-size: cover;
-/*height:1010%;
-width: 1400px;
-height: 1010px;*/
+background-attachment: fixed;
+
 }
 
 /*______________Style qui gère mon body, le container________________*/
 
 #container {
 	background:white;
-	margin-right:auto;
-	margin-left:auto;
+	margin: 0 auto 0 auto;
 	width:1020px;
 	height:1350px;
 }
@@ -30,9 +28,10 @@ height: 1010px;*/
 /*______________Style qui gère ma DIV noire__________________________________*/
 
 #div_black {
-	height:360px;
+	height:340px;
 	background:#090401;
 	margin-bottom:0px;
+	margin-top: 0;
 }
 
 /*______________Styles qui gère mes liens de menu_________________________*/
@@ -44,6 +43,7 @@ a:hover {
 a {
 	color:white;
 	text-decoration:none;
+
 }
 
 /*______________Style qui gère mon menu fait en tableau__________________*/
@@ -52,12 +52,11 @@ table {
 	color:white;
 	margin-right:auto;
 	margin-left:auto;
-	background:black;
+	background:#090401;
 	padding: 10px 16px;
 	border-collapse: separate;
-        border-spacing: 0px 15px;
-	border-collapse: separate;
-        border-spacing: 30px 0px;
+        border-spacing: 35px 0px;
+	
 	font-family:"Varela";
 	font-size:16px;
     
@@ -69,7 +68,7 @@ th {
 	margin-right:15px;
 	margin-left:15px;
 	font-weight: 400;
-	opacity: 0.9;
+	opacity: 0.85;
 }
 
 /*______________Styles qui gère mes titres__________________________________*/
@@ -83,12 +82,12 @@ h1 {
 	font-weight: normal;
 }
 
-h2 {
+#sous_titre {
 	font-family:"Bitter";
 	font-size:18px;
 	color:#cfa205;
 	text-align:center;
-	margin-top:-50px;
+	margin-top:-55px;
 	font-weight: normal;
 }
 
@@ -100,13 +99,14 @@ h2 {
 	height:60px;
 	margin-top:-16px;
 	display: block;
+	word-spacing: 5px;
 }
 
 /*______________Styles qui gère mes divs d'icônes__________________*/
 
 .icones {
-	width:35px;
-	height:35px;
+	width:29px;
+	height:29px;
 	margin-top:auto;
 	margin-bottom:auto;
 	text-align:center;
@@ -125,7 +125,7 @@ h2 {
 #intro {
 	margin-top: 0;
 	margin-bottom: 30px;
-	padding-top: 30px;
+	padding-top: 25px;
 	color: #7a7a7a;
 	font-size: 18px;
 	font-weight: 700;
@@ -141,7 +141,7 @@ h2 {
 	font-family: "Bitter";
 	font-weight: 400;
 	color: #7a7a7a;
-	line-height: 150%;
+	line-height: 190%;
 
 }
 
@@ -161,6 +161,7 @@ h2 {
 	font-size: 16px;
 	font-weight: 700;
 	clear: both;
+	font-family: "Bitter";
 	
 }
 
@@ -170,7 +171,6 @@ h2 {
 	width: 260px;
 	position: absolute;
 	display: inline-block; 
-	overflow: auto;
 	margin-top: 30px;
 }
 
@@ -201,5 +201,5 @@ h2 {
 }
 
 .div_titres {
-	margin-top: 275px;
+	margin-top: 230px;
 }
