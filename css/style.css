@@ -1,0 +1,211 @@
+/*_______me permet d'utiliser la police joselin____*/
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(JosefinSans-Regular.ttf);
+    font-family: "Bitter";
+    src: url(Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: url(Bitter-Regular.ttf);
+}
+
+
+/*_______Style qui gère le fond en image et la continuité du fond blanc____*/
+
+html {
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*______________Style qui gère mon body, le container________________*/
+
+#container {
+    background: white;
+    margin: 0 auto 0 auto;
+    width: 1020px;
+    height: 1350px;
+}
+
+
+/*______________Style qui gère ma DIV noire__________________________________*/
+
+#div_black {
+    height: 340px;
+    background: #090401;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+
+/*______________Styles qui gère mes liens de menu_________________________*/
+
+a:hover {
+    color: #cfa205;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*______________Style qui gère mon menu fait en tableau__________________*/
+
+table {
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    background: #090401;
+    padding: 10px 16px;
+    border-collapse: separate;
+    border-spacing: 35px 0px;
+    font-family: "Varela";
+    font-size: 16px;
+}
+
+
+/*______________Style qui gère mes marges de cellules______________________*/
+
+th {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+    opacity: 0.85;
+}
+
+
+/*______________Styles qui gère mes titres__________________________________*/
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size: 133px;
+    color: #cfa205;
+    text-align: center;
+    margin-top: 55px;
+    font-weight: normal;
+}
+
+#sous_titre {
+    font-family: "Bitter";
+    font-size: 18px;
+    color: #cfa205;
+    text-align: center;
+    margin-top: -55px;
+    font-weight: normal;
+}
+
+
+/*______________Style qui gère le fond de ma barre d'icônes__________*/
+
+#fond_icones {
+    background: #e8e8e8;
+    width: 1020px;
+    height: 60px;
+    margin-top: -16px;
+    display: block;
+    word-spacing: 5px;
+}
+
+
+/*______________Styles qui gère mes divs d'icônes__________________*/
+
+.icones {
+    width: 29px;
+    height: 29px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-top: 12.5px;
+}
+
+.text {
+    width: 780px;
+    height: 90px;
+    margin: 0 auto 30px auto;
+    border-bottom: 2px solid #e8e8e8;
+    padding: 30px 60px 90px 60px;
+}
+
+#intro {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Bitter";
+    text-align: center;
+    line-height: 175%;
+}
+
+.descriptions {
+    font-size: 16px;
+    font-family: "Bitter";
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 190%;
+}
+
+.div_images {
+    position: absolute;
+}
+
+#main {
+    width: 900px;
+    height: 675px;
+    position: relative;
+    display: block;
+}
+
+.titres {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    clear: both;
+    font-family: "Bitter";
+}
+
+#colonne_un,
+#colonne_deux,
+#colonne_trois {
+    height: 675px;
+    width: 260px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#colonne_un {
+    margin-left: 60px;
+}
+
+#colonne_deux {
+    margin-left: 380px;
+}
+
+#colonne_trois {
+    margin-left: 700px;
+}
+
+#titre_un {
+    clear: left;
+}
+
+#image_une {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.div_descriptions {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.div_titres {
+    margin-top: 230px;
+}
